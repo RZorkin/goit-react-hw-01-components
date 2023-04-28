@@ -21,7 +21,7 @@ FriendList.propTypes = {
   friends: PropTypes.arrayOf(
     PropTypes.shape({
       id: PropTypes.number.isRequired,
-      isOnline: PropTypes.string.isRequired,
+      isOnline: PropTypes.boolean.isRequired,
       name: PropTypes.string.isRequired,
     })
   ).isRequired,
